@@ -1,8 +1,7 @@
 {
   "name": "next-template-basic-starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
     "typecheck": "tsc --noEmit",
     "dev": "next dev",
@@ -14,9 +13,6 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,mdx}\" --cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "Apache-2.0",
   "dependencies": {
     "clsx": "^2.1.1",
     "next": "^14.2.3",
